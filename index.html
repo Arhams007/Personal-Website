@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arham - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      <nav>
+        <div class="left">Arham's Portfolio</div>
+        <div class="right"></div>
+        <ul>
+          <li><a href="/"> Home </a></li>
+          <li><a href="/"> About </a></li>
+          <li><a href="/"> Services </a></li>
+          <li><a href="/"> Projects </a></li>
+          <li><a href="/"> Contact Me </a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--mainsection-->
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Arham.</span>
+
+          <div>I am a passionate</div>
+          <div>Web Developer</div>
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="assets/img/bg.png" alt="images" />
+        </div>
+      </section>
+
+      <hr />
+      <!--workexperience section-->
+      <section class="timeline-section">
+        <h2 class="section-title">What I have done so far</h2>
+        <h3 class="section-subtitle">Work Experience</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img src="assets/img/web.png" alt="Web Developer Icon" />
+            </div>
+            <div class="timeline-content">
+              <h4>Web Developer <span>(2023-2024)</span></h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
+                reprehenderit dolorum eos.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img src="assets/img/developer.png" alt="UIUX Designer Icon" />
+            </div>
+            <div class="timeline-content">
+              <h4>UI/UX Designer <span>(2023-2024)</span></h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
+                reprehenderit dolorum eos.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img
+                src="assets/img/photographerlogo.png"
+                alt="Photographer Icon"
+              />
+            </div>
+            <div class="timeline-content">
+              <h4>Photographer <span>(2021-2024)</span></h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
+                reprehenderit dolorum eos.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img src="assets/img/figmalogo.png" alt="Figma Icon" />
+            </div>
+            <div class="timeline-content">
+              <h4>Figma Prototype <span>(2023-2024)</span></h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
+                reprehenderit dolorum eos.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img src="assets/img/laravel.png" alt="Laravel Icon" />
+            </div>
+            <div class="timeline-content">
+              <h4>PHP Laravel Developer <span>(2023-2024)</span></h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
+                reprehenderit dolorum eos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--footer section-->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h2>Your Company</h2>
+          <p>
+            We are committed to delivering the best services to our customers.
+            Our team of experts ensures top-notch quality in everything we do.
+          </p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section contact">
+          <h3>Contact Us</h3>
+          <ul>
+            <li>
+              <i class="fas fa-map-marker-alt"></i> Garden Town Lahore.
+              
+            </li>
+            <li><i class="fas fa-phone-alt"></i> +92 319-0650500</li>
+            <li><i class="fas fa-envelope"></i> heapware.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Your Company Name. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Laravel Developer",
+          "Web Designer",
+          "Video Editor",
+          "Photo Editor",
+          "Thumbnail Edit",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
